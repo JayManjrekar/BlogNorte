@@ -1,7 +1,8 @@
-from flask import request, abort
+from flask import Response, request, abort
 from functools import wraps
 import jwt
-from models.models import User
+
+from models.models import User, Post
 
 
 def is_authenticated(func):
@@ -9,43 +10,41 @@ def is_authenticated(func):
     def authorize(*args, **kwargs):
         token = request.headers.get("authorization")
         if not token:
-            abort(401)
+            abort(Response("No authorization token", 401))
         try:
-            print(token.split(" ")[1])
             data = jwt.decode(token.split(" ")[1], "TEMP_SECRET_KEY", algorithms=["HS256"])
         except:
-            abort(401)
+            abort(Response("Invalid token signature", 401))
         user = User.query.filter_by(id=data["id"]).first()
         if not user:
-            abort(401)
+            abort(Response("No associated user found", 401))
 
         return func(*args, **kwargs)
 
     return authorize
+
 
 def is_author(func):
     @wraps(func)
     def authorize(*args, **kwargs):
         token = request.headers.get("authorization")
         if not token:
-            abort(401)
+            abort(Response("No authorization token", 401))
         try:
-            print(token.split(" ")[1])
             data = jwt.decode(token.split(" ")[1], "TEMP_SECRET_KEY", algorithms=["HS256"])
         except:
-            abort(401)
+            abort(Response("Invalid token signature", 401))
         user = User.query.filter_by(id=data["id"]).first()
 
         if not user:
-            abort(401)
+            abort(Response("No associated user found", 401))
 
-        data = request.get_json()
-        post_id = data["post_id"]
+        post_id = kwargs["id"]
 
-        post = user.posts.filter_by(id=post_id).first()
+        post = Post.query.filter_by(id=post_id).first()
 
-        if not post:
-            abort(401)
+        if not post.author == user.id:
+            abort(Response("You are not the author of this post", 401))
 
         return func(*args, **kwargs)
 
