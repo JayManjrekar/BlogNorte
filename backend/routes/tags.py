@@ -1,7 +1,8 @@
 from flask import Blueprint, jsonify, request
+from datetime import datetime
 
 from middleware.authentication import is_authenticated
-from models.models import db, Tag, Post
+from models.models import db, Tag
 
 tags = Blueprint("tags", __name__)
 
@@ -23,12 +24,13 @@ def get_tag_by_id(id):
     posts = []
 
     for post in tag.posts:
+        formatted_date = datetime.strftime(post.date_posted, "%b %d, %Y")
         post = {
             "id": post.id,
             "slug": post.slug,
             "title": post.title,
             "excerpt": post.excerpt,
-            "date_posted": post.date_posted,
+            "date_posted": formatted_date,
             "likes": post.likes,
         }
 
@@ -43,9 +45,8 @@ def get_tag_by_id(id):
     return jsonify(tag), 200
 
 
-# is_admin!!!
-@is_authenticated
 @tags.route("/create", methods=["POST"])
+@is_authenticated
 def create_tag():
     tag = Tag(
         name=request.json["name"],
