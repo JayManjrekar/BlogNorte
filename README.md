@@ -18,5 +18,5 @@
 ## Week 0
 |Tasks|Evidence|
 | - | - |
-|Web Project: Project Description, Project Plans/Ideas/Wires, Time box|[Time Box](https://github.com/Tigran7/TeamSaveUkraine#readme)|
-|Team Roles described, Project Owner or Sponsor described, Scrum Board started|[Scrum Board](https://github.com/Tigran7/TeamSaveUkraine/projects/1)|
+
+|Team Roles described, Project Owner or Sponsor described, Scrum Board started|[Scrum Board](https://github.com/Tigran7/BlogNorte/projects/1)|
