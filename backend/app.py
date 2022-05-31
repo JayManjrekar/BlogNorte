@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 
-from backend.models.models import db
+from models.models import db
 
 from routes.auth import auth
 from routes.posts import posts
