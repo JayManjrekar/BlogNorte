@@ -17,7 +17,7 @@
 
 ## Master Plan
 
+Create a visually appealing and functional blog site for the students of csp. Accounts should be secured and personal information should be safe. 
 
-||
 
-[Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)|
+[Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)
