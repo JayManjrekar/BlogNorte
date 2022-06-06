@@ -25,6 +25,13 @@ Initially we had an idea to create a Real Estate website for for our sponsor AKA
 
 
 
+
+
+## Communication with sponsor
+
+Not the most formal way of communicating however most efficient via IMessages
+
+![IMG_2692](https://user-images.githubusercontent.com/18522202/172213765-3c0a9d0d-ff1e-48bc-9876-2d0923b763f1.jpg)
 ![IMG_2694](https://user-images.githubusercontent.com/18522202/172213583-3bf902ab-e88f-4dba-93e6-eecc6313691d.jpg)
 ![IMG_2695](https://user-images.githubusercontent.com/18522202/172213590-74e7a7cb-6ec5-41f7-a960-e7693fa4ec71.jpg)
 
