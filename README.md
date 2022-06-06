@@ -14,9 +14,10 @@
 |Tigran A|[@Tigran7](https://github.com/Tigran7)|[Tigran's Individual Repo](https://github.com/Tigran7/TigranCSP3)|Design manager| [Commits](https://github.com/Tigran7/TigranCSP3/commits/main)|
 |Derek Bokelman| [@DerekBokelman](https://github.com/DerekBokelman) | [Derek's Individual Repository](https://github.com/DerekBokelman/IndividualPage/commits/main) |Deployment officer | [Commits](https://github.com/DerekBokelman/IndividualPage/commits/main)|
 
-# Time Box
-## Week 0
-|Tasks|Evidence|
-| - | - |
 
-|Team Roles described, Project Owner or Sponsor described, Scrum Board started|[Scrum Board](https://github.com/Tigran7/BlogNorte/projects/1)|
+## Master Plan
+
+
+||
+
+[Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)|
