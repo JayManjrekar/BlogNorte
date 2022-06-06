@@ -24,9 +24,9 @@ Initially we had an idea to create a Real Estate website for for our sponsor AKA
 
 
 
-![IMG_2692](https://user-images.githubusercontent.com/18522202/172213355-f8f0bfb8-4ab7-4fc0-95fb-73d1a098a35f.jpg)
 
-![IMG_2693](https://user-images.githubusercontent.com/18522202/172213442-6e919aae-4a5c-494e-b440-dbd59639bf3f.jpg)
+![IMG_2694](https://user-images.githubusercontent.com/18522202/172213583-3bf902ab-e88f-4dba-93e6-eecc6313691d.jpg)
+![IMG_2695](https://user-images.githubusercontent.com/18522202/172213590-74e7a7cb-6ec5-41f7-a960-e7693fa4ec71.jpg)
 
 
 
