@@ -22,9 +22,18 @@ Initially we had an idea to create a Real Estate website for for our sponsor AKA
 ## [Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)
 
 
+## N@TM interactions and presentation 
+
+The viewers were our target audience of students in CSP and CSA. This was a great way to give them exposure to our website and introduce them to a new form of communication.
 
 
+![IMG_0862](https://user-images.githubusercontent.com/18522202/172214563-0acecf9c-df6f-4b2e-94f3-67d80cc507be.jpg)
 
+![IMG_0863](https://user-images.githubusercontent.com/18522202/172214728-7b57625a-b345-4265-aa19-73e8b327f9f1.jpg)
+
+![IMG_0866](https://user-images.githubusercontent.com/18522202/172214763-a01f89b8-a48c-48a1-8fdf-cb4dc08e38be.jpg)
+
+![IMG_0871](https://user-images.githubusercontent.com/18522202/172214788-34e0932d-e44b-4342-98c9-5d12919e1cd2.jpg)
 
 
 ## Communication with sponsor
