@@ -19,4 +19,4 @@
 
 Initially we had an idea to create a Real Estate website for for our sponsor AKA: Dereks mom. After some thorough communication with his mother, she informed us that she already had a functional website designated specifically for her workspace. Instead she came to a realization that we needed more communication within our class. Granted we do have slack and discord, however not all people have access to it outside their computers. Therfore we were given the task to complete this website and our goal became to help our classroom as well. Because this switch happened, we were under a time constraint for about a week and a half. We equally distributed front end and back end work amongst the people in our group and used the scrum board as a guideline to go off of. Our main goal was to create a visually appealing and functional blog site for the students of csp. Accounts should be secured and personal information should be safe.
 
-[Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)
+## [Scrum Board](https://github.com/JayManjrekar/BlogNorte/projects/1)
